@@ -1,0 +1,265 @@
+
+/*HEADER*/
+
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+    box-sizing: border-box ;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin:0;
+}
+    
+ 
+header {background-color: #EAC926;
+}
+
+.primeraSeccionHeader{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    align-items: flex-start;
+}
+
+img.Logo-ml {
+    width: 35%;
+    align-self: center;
+}
+
+.barra-busqueda-icono{
+    display: flex;
+    align-self: center;
+    gap: 2%;
+ 
+}
+
+.barra-busqueda{
+    padding: 1px 1px;
+    height: 10%;
+    left:10%;
+    text-indent: -1px;
+    align-self: center;
+}
+
+#icono-lupa{
+    padding: 2% 2%;
+    background-color: white;
+    color: black;
+    width: 26%;
+    height: 26%;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    align-self: center;
+}
+
+.advertencia-compra-cuotas{
+    text-align: center;
+    align-self: center;
+}
+
+.navbar{
+    display: flex;   
+    flex-direction: row;
+    gap: 5%;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.segundaSeccionHeader .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /*hace que ninguna de las palabras vaya para abajo*/
+    margin-top: 2%;
+}
+
+.segundaSeccionHeader .navbar ul li{ 
+    margin-right: 25px;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.section-articulos .sub-section-articulos{
+    width: 22%;
+    height: 10%;
+    margin: 0.5% auto;
+}
+
+.section-articulos article {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  a{
+    text-decoration: none;
+    color: black
+}
+
+
+/*MAIN*/
+
+main{
+    background-color: #ebebeb;
+    margin-top: -2%;
+    
+}
+
+.espacio-Formulario{
+    margin-top: 50px;
+}
+
+.vida-sana{
+    white-space: nowrap;
+    
+}
+
+.label-titulo{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: 30px;
+    
+}
+
+.formulario-flex{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.intereses-flex{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;  
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+
+.intereses-flex div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   column-gap: 15%;
+    
+}
+
+
+.intereses-flex div p{
+    margin-right: 10px;
+    align-items: baseline;
+    width: 10%;
+}
+
+.intereses-flex div input{
+    margin-left: 30px;
+}
+
+/*.intereses-flex p{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    width: 50%;
+}*/
+
+
+.cargar-foto{
+    width: 100%;
+}
+
+p input{
+    width: 90%;
+    margin-right: 3%;
+    margin-left: 3%;
+    border: 0ch;
+    border-radius: 3px;
+    
+}
+
+.formulario-comprador-vendedor{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+                    
+
+
+/*FOOTER*/
+
+.pago-con-tarjeta{
+    text-align: center;
+}
+
+.pago-con-tarjeta i{
+    color: blue;
+}
+
+.pago-con-tarjeta h3{
+    margin: 1px 10px 12px;
+}
+
+.pago-con-tarjeta p{
+    margin: -15px 1px 1px;
+}
+
+.envio-gratis{
+    text-align: center;
+}
+
+.envio-gratis i{
+    color: blue;
+}
+
+.envio-gratis h3{
+    margin: 1px 10px 12px;
+}
+
+.envio-gratis p{
+    margin: -15px 1px 1px;
+}
+
+.seguridad-principio{
+    text-align: center;
+}
+
+.seguridad-principio i{
+    color: blue;
+}
+
+.seguridad-principio h3{
+    margin: 1px 10px 12px;
+}
+
+.seguridad-principio  p{
+    margin: -15px 1px 1px;
+}
+
+
+
+.navbar{
+    display: none;
+}
+
+.section-articulos article section h3{
+    display: none;
+}

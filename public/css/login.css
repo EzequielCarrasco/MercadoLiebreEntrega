@@ -1,0 +1,205 @@
+/*HEADER*/
+
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin:0;
+}
+    
+ 
+header {background-color: #EAC926;
+}
+
+.primeraSeccionHeader{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+    align-items: flex-start;
+}
+
+img.Logo-ml {
+    width: 35%;
+    align-self: center;
+}
+
+.barra-busqueda-icono{
+    display: flex;
+    align-self: center;
+    gap: 2%;
+ 
+}
+
+.barra-busqueda{
+    padding: 1px 1px;
+    height: 10%;
+    left:10%;
+    text-indent: -1px;
+    align-self: center;
+}
+
+#icono-lupa{
+    padding: 2% 2%;
+    background-color: white;
+    color: black;
+    width: 26%;
+    height: 26%;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    align-self: center;
+}
+
+.advertencia-compra-cuotas{
+    text-align: center;
+    align-self: center;
+}
+
+.navbar{
+    display: flex;   
+    flex-direction: row;
+    gap: 5%;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.segundaSeccionHeader .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /*hace que ninguna de las palabras vaya para abajo*/
+    margin-top: 2%;
+}
+
+.segundaSeccionHeader .navbar ul li{ 
+    margin-right: 25px;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.section-articulos .sub-section-articulos{
+    width: 22%;
+    height: 10%;
+    margin: 0.5% auto;
+}
+
+.section-articulos article {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  a{
+    text-decoration: none;
+    color: black
+}
+
+
+/*MAIN*/
+
+.botonEnviar:hover{
+    background-color: #0022AA;
+}
+
+main{
+    background-color: #ebebeb;
+}
+
+form .formulario{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.partes-formulario{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    
+}
+
+.input-formulario, .boton-formulario{
+    width: 40%;
+    height: 25px;
+}
+
+.input-formulario{
+    text-indent: 1px;
+    border: 0ch;
+    border-radius: 3px;
+}
+
+.boton-formulario{
+    background-color: rgb(77, 77, 247);
+    color: white;
+    border: 0ch;
+    border-radius: 3px;
+}
+
+
+
+/*FOOTER*/
+
+.pago-con-tarjeta{
+    text-align: center;
+}
+
+.pago-con-tarjeta i{
+    color: blue;
+}
+
+.pago-con-tarjeta h3{
+    margin: 1px 10px 12px;
+}
+
+.pago-con-tarjeta p{
+    margin: -15px 1px 1px;
+}
+
+.envio-gratis{
+    text-align: center;
+}
+
+.envio-gratis i{
+    color: blue;
+}
+
+.envio-gratis h3{
+    margin: 1px 10px 12px;
+}
+
+.envio-gratis p{
+    margin: -15px 1px 1px;
+}
+
+.seguridad-principio{
+    text-align: center;
+}
+
+.seguridad-principio i{
+    color: blue;
+}
+
+.seguridad-principio h3{
+    margin: 1px 10px 12px;
+}
+
+.seguridad-principio  p{
+    margin: -15px 1px 1px;
+}
+
+
+.section-articulos article section h3{
+    display: none;
+}
